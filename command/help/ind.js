@@ -8,10 +8,10 @@ exports.limitend = (pushname) => {
 	return`Maaf ${pushname} limit hari ini telah habis\nlimit di reset setiap jam 24:00`
 }
 exports.noregis = (pushname) =>{
-	return` 🙅‍♀️ Halo ${pushname} lu belum daftar. Ketik .daftar dulu`
+	return` 🟡 Halo ${pushname} lu belum daftar. Ketik .daftar dulu`
 	}
 exports.regis = () =>{
-	return` Lu udah daftar 😒`
+	return` Lu udah daftar 📌`
 	}
 exports.daftar = (sender, pushname, time, serialUser, totalUser) =>{
 	return` *PENDAFTARAN BERHASIL*
@@ -108,7 +108,7 @@ exports.menu = (prefix, salam, pushname) =>{
 
 ╭─⬣ *Converter*
 │• ${prefix}stiker [video/image]
-│• ${prefix}semoji 😎
+│• ${prefix}semoji ⚔️
 │• ${prefix}smeme [text]
 │• ${prefix}memegen [text|text2]
 │• ${prefix}fast [video/vn]
@@ -423,9 +423,9 @@ exports.sewabot = (prefix, salam, pushname) =>{
 
 ╭─⬣ Minat? Chat
 │• Sering² Donasi
-│• wa.me/6281575886399
-│• Instagram : @riychh
-│• YouTube : RIYCH OFC
+│• wa.me/6283830815715
+│• Instagram : @Firaa
+│• YouTube : Gakda🗿📌
 ╰─⬣
 `
 }
