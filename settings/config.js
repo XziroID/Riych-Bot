@@ -2,7 +2,7 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 // self or public
-global.self = true //jadiin true klo gk mau fitur bot lu di pke sama org lain
+global.self = false //jadiin true klo gk mau fitur bot lu di pke sama org lain
 
 // setting
 global.ownername ="FiraaChann"
